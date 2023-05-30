@@ -1,0 +1,24 @@
+//abstract class:the class which declared with absttract keyword is called as AC
+                  //it has both  AM & CM
+//Concrete class:the class which donot declared with the abstract keyword 
+                  //it has CM only
+//interface: interface is a blue print of class ,class blue print of object
+//interface is a mediaor betwwen the 2 system one as cleint and another one object of servces
+ //person swicth fan
+//AM-private static final
+
+//1. Can we have variables & methods in aninterface?
+    //Yes
+    //variable->public ,static,final
+    //method->public ,abstract
+
+//2.what is the contract of abstract class?
+     //1.Override the abstract method
+     //2.make the class as abtract
+
+//3.can abstract methods be private ,static ,final?
+     //NO
+     //the goal of having abstract methods is to override , 
+      //if abtract method is private,static & final we cannot override,theerefore abstract methods  accnot be private ,statoc & final
+
+//Note:while overriding the access modifier should be SAME or HIGHER VISISBILITY
